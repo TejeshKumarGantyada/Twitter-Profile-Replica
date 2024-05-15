@@ -82,6 +82,7 @@ class MainActivity : AppCompatActivity() {
             val openUrl = Intent(android.content.Intent.ACTION_VIEW)
             openUrl.data= Uri.parse("https://www.instagram.com/tejeshkumar.gantyada/")
             startActivity(openUrl)
+            //
         }
 
         fb.setOnClickListener{
